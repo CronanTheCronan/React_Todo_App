@@ -15,6 +15,6 @@ app.get('/', function(req, res){
         res.sendFile('index.html');
 })
 
-app.listen(3000, function(){
+app.listen(3001, function(){
         console.log("I'm Tiny Rick!");
 })
